@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "常见问题和答案",
   "usingComponents": {
     "mp-searchbar": "../../../libs/searchbar/searchbar",
     "mp-cells": "../../../libs/cells/cells",

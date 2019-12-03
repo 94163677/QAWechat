@@ -10,6 +10,6 @@
     <button bindtap="agree" class="weui-btn" type="primary">同意</button>
   </view>
   <view class="weui-footer">
-    <view class="weui-footer__text">Copyright © 2019-2020 Hh7</view>
+    <view class="weui-footer__text">Copyright © 2019 Hh7</view>
   </view>
 </view>

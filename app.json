@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/searchList/searchList",
     "pages/userAgteement/userAgteement",
+    "pages/searchList/searchList",
     "pages/oneResult/oneResult",
     "pages/index/index",
     "pages/logs/logs"
