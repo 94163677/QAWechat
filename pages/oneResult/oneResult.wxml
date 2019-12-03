@@ -1,0 +1,13 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">{{queTitle}}</view>
+    <view class="page__desc">{{qa.que}}</view>
+    <view class="page__title">{{ansTitle}}</view>
+    <view class="page__desc" wx:for="{{qa.ans}}">
+      {{item}}
+    </view>
+  </view>
+  <view class="weui-footer">
+    <view class="weui-footer__text">Copyright © 2019-2020 Hh7</view>
+  </view>
+</view>

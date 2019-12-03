@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">{{title}}</view>
+    <view class="page__desc" wx:for="{{agreement}}">
+      {{item}}
+    </view>
+    <view class="page__desc">同意本协议请按“同意”按钮，不同意请按右上角退出。</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <button bindtap="agree" class="weui-btn" type="primary">同意</button>
+  </view>
+  <view class="weui-footer">
+    <view class="weui-footer__text">Copyright © 2019-2020 Hh7</view>
+  </view>
+</view>

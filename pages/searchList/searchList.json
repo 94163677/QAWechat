@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mp-searchbar": "../../../libs/searchbar/searchbar",
+    "mp-cells": "../../../libs/cells/cells",
+    "mp-cell": "../../../libs/cell/cell"
+  }
+}
