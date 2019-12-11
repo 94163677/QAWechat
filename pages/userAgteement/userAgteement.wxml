@@ -1,6 +1,12 @@
 <view class="page">
   <view class="page__hd">
     <view class="page__title">{{title}}</view>
+    <!--20191209093838.png-->
+    <view class="page-section page-section-gap">
+      <view class="page-section-ctn">
+        <image class="image" src="20191209093838.png"/>
+      </view>
+    </view>
     <view class="page__desc" wx:for="{{agreement}}">
       {{item}}
     </view>
@@ -10,6 +16,6 @@
     <button bindtap="agree" class="weui-btn" type="primary">同意</button>
   </view>
   <view class="weui-footer">
-    <view class="weui-footer__text">Copyright © 2019 Hh7</view>
+    <view class="weui-footer__text">Copyright © 2019 {{app.globalData.company}}</view>
   </view>
 </view>

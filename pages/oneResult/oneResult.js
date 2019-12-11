@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    app: getApp(),
     queTitle: "问题：",
     ansTitle: "回答：",
     qa: {

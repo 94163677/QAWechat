@@ -5,3 +5,11 @@
 .weui-footer_fixed-bottom{
     margin-bottom: 0;
 }
+.page-section-ctn {
+  text-align: center;
+}
+.image {
+  margin-top: 30rpx;
+  width: 580rpx;
+  height: 208rpx;
+}
